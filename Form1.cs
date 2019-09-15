@@ -65,15 +65,15 @@ namespace FirstCode
                     break;
                 case "-":
                     label1.Text = label1.Text + valor.Text + "=";
-                    valor.Text = Convert.ToString(a - Convert.ToInt32(valor.Text));
+                    valor.Text = Convert.ToString(a - Convert.ToDouble(valor.Text));
                     break;
                 case "*":
                     label1.Text = label1.Text + valor.Text + "=";
-                    valor.Text = Convert.ToString(a * Convert.ToInt32(valor.Text));
+                    valor.Text = Convert.ToString(a * Convert.ToDouble(valor.Text));
                     break;
                 case "/":
                     label1.Text = label1.Text + valor.Text + "=";
-                    valor.Text = Convert.ToString(a / Convert.ToInt32(valor.Text));
+                    valor.Text = Convert.ToString(a / Convert.ToDouble(valor.Text));
                     break;
                 default:
                     label1.Text = "Operação Iválida";
